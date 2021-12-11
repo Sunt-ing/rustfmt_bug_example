@@ -1,2 +1,2 @@
+# "Module", "One" can also produce the bug. But "Item" cannot.
 imports_granularity = "Crate"
-group_imports = "StdExternalCrate"
