@@ -1,5 +1,3 @@
-[workspace]
-members = [ 
-  "common", 
-  "prost", 
-]
+[package]
+name = "rustfix_bug_example"
+version = "0.1.0"
