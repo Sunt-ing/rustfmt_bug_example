@@ -4,7 +4,7 @@ This repo is used to reproduce the `rustfix` bug reported in https://github.com/
 ### How to reproduce it?
 Step1: clone this repo:
 ```
-git clone https://github.com/sunt-ing/rustfix_bug_example.git
+git clone https://github.com/sunt-ing/rustfmt_bug_example.git
 ```
 
 Step 2: ensure the repo is correct.
