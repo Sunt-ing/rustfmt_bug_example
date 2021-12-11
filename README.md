@@ -20,7 +20,7 @@ cd rustfmt_bug_example
 cargo fmt
 ```
 
-**Step 4**: run the `rustfmt` again:
+**Step 4**: run the test again:
 ```bash
 cd rustfmt_bug_example
 cargo test
