@@ -9,23 +9,27 @@ git clone https://github.com/sunt-ing/rustfmt_bug_example.git
 
 Step 2: ensure the repo is correct.
 ```bash
+cd rustfmt_bug_example
 cargo test
 ```
 Should be fine.
 
 Step 3: format it by running `rustfmt` with the rules in `rustfmt.toml`.
 ```bash
+cd rustfmt_bug_example
 cargo fmt
 ```
 
 Step 4: run the `rustfmt` again:
 ```bash
+cd rustfmt_bug_example
 cargo test
 ```
 Test failed because of lack of importing dependencies.
 
 Tips: if you want to run again, you can drop all the local changes:
-```
+```bash
+cd rustfmt_bug_example
 git co -- .
 ```
 
